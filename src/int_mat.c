@@ -19,7 +19,7 @@ LincStatus MatAddI(MatrixI *a, MatrixI *b, MatrixI *out) {
   size_t n = a->rows * a->cols;
 
   /* allocate the output buffer; caller owns this memory and must free it */
-  out->data = malloc(n * sizeof(double));
+  out->data = malloc(n * sizeof(int));
   if (!out->data)
     return LINC_ERR_ALLOC;
 
@@ -51,7 +51,7 @@ LincStatus MatSubI(MatrixI *a, MatrixI *b, MatrixI *out) {
   size_t n = a->rows * a->cols;
 
   /* allocate the output buffer; caller owns this memory and must free it */
-  out->data = malloc(n * sizeof(double));
+  out->data = malloc(n * sizeof(int));
   if (!out->data)
     return LINC_ERR_ALLOC;
 
