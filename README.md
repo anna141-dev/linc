@@ -32,7 +32,7 @@ make # (compile)
 make lib # (to use as a lib)
 
 ## or...
-make run # (to use the pre-defined tests on src/main.c)
+make run # (to use the pre-defined tests on tests/*.c)
 ```
 
 ## Documentation
