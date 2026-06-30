@@ -1,5 +1,5 @@
-#ifndef MAT_ARITHMETIC_H
-#define MAT_ARITHMETIC_H
+#ifndef INT_MAT_H
+#define INT_MAT_H
 
 #include "types.h"
 
