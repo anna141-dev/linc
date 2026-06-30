@@ -4,7 +4,7 @@
 
 LincStatus MatAddI(MatrixI *a, MatrixI *b, MatrixI *out) {
   /* reject null pointers for either matrix struct or their underlying data buffers */
-  if (!a || !b || !a->data || !b->data)
+  if (!a || !b || !out || !a->data || !b->data)
     return LINC_ERR_NULL_PTR;
 
   /* both matrices must have strictly positive dimensions */
@@ -36,7 +36,7 @@ LincStatus MatAddI(MatrixI *a, MatrixI *b, MatrixI *out) {
 
 LincStatus MatSubI(MatrixI *a, MatrixI *b, MatrixI *out) {
   /* reject null pointers for either matrix struct or their underlying data buffers */
-  if (!a || !b || !a->data || !b->data)
+  if (!a || !b || !out || !a->data || !b->data)
     return LINC_ERR_NULL_PTR;
 
   /* both matrices must have strictly positive dimensions */
