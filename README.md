@@ -94,11 +94,13 @@ linc/
 ├── src/
 │   ├── int_mat.c
 │   ├── float_mat.c
+│   ├── double_mat.c
 │   ├── mat_utils.c
 ├── include/
 │   ├── types.h
 │   ├── int_mat.h
 │   ├── float_mat.h
+│   ├── double_mat.h
 │   ├── mat_utils.h
 │   ├── linc.h
 ├── tests/
