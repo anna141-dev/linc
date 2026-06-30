@@ -93,10 +93,12 @@ See the `*.c` files in /tests/
 linc/
 ├── src/
 │   ├── int_mat.c
+│   ├── float_mat.c
 │   ├── mat_utils.c
 ├── include/
 │   ├── types.h
 │   ├── int_mat.h
+│   ├── float_mat.h
 │   ├── mat_utils.h
 │   ├── linc.h
 ├── tests/
