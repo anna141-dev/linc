@@ -1,6 +1,10 @@
 #ifndef MAT_UTILS_H
 #define MAT_UTILS_H
 
+#ifdef __cplusplus
+extern "C" {
+#endif
+
 #include "types.h"
 
 /**
@@ -26,5 +30,9 @@ void MatPrintF(MatrixF *m);
  * @param m The matrix to display
  */
 void MatPrintD(MatrixD *m);
+
+#ifdef __cplusplus
+}
+#endif
 
 #endif

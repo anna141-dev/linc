@@ -1,6 +1,10 @@
 #ifndef TYPES_H
 #define TYPES_H
 
+#ifdef __cplusplus
+extern "C" {
+#endif
+
 #include <stdint.h>
 
 typedef float f32;
@@ -50,5 +54,9 @@ typedef struct {
   size_t cols; /**< The total number of columns in the matrix */
   f64 *data; /**< The data saved in the matrix */
 } MatrixD;
+
+#ifdef __cplusplus
+}
+#endif
 
 #endif

@@ -1,6 +1,10 @@
 #ifndef DOUBLE_MAT_H
 #define DOUBLE_MAT_H
 
+#ifdef __cplusplus
+extern "C" {
+#endif
+
 #include "types.h"
 
 /**
@@ -38,5 +42,9 @@ LincStatus MatAddD(MatrixD *a, MatrixD *b, MatrixD *out);
  * @return LincStatus indicating success or failure
  */
 LincStatus MatSubD(MatrixD *a, MatrixD *b, MatrixD *out);
+
+#ifdef __cplusplus
+}
+#endif
 
 #endif

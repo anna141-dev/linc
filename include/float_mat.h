@@ -1,6 +1,10 @@
 #ifndef FLOAT_MAT_H
 #define FLOAT_MAT_H
 
+#ifdef __cplusplus
+extern "C" {
+#endif
+
 #include "types.h"
 
 /**
@@ -38,5 +42,9 @@ LincStatus MatAddI(MatrixI *a, MatrixI *b, MatrixI *out);
  * @return LincStatus indicating success or failure
  */
 LincStatus MatSubI(MatrixI *a, MatrixI *b, MatrixI *out);
+
+#ifdef __cplusplus
+}
+#endif
 
 #endif
