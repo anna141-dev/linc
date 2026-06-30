@@ -1,4 +1,4 @@
-#include "int_mat.h"
+#include "float_mat.h"
 
 #include <stdlib.h>
 
